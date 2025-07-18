@@ -1,6 +1,6 @@
 # Login-SyStem_PHP
 
-# PHP Login & Registration System
+## PHP Login & Registration System
 
 A simple user authentication system built using PHP and MySQL. This project allows users to register, log in, view a welcome page, and log out securely using sessions.
 
