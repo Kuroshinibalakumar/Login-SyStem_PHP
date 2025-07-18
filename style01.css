@@ -1,0 +1,130 @@
+
+
+
+body {
+  font-family: 'monospace';
+  background-color: #84a4d8;
+  color: #283473;
+}
+
+.menu {
+  background-color: #e6c5c5;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(211, 187, 187, 0.2);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+
+ padding-right:  8px 15px;
+  height: 50px;
+  margin:auto
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #9c9393;
+  padding: 8px 15px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+.menu ul li a:hover {
+  background-color: #ecd79c;
+  color: #000;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Section Styling */
+.index_into {
+    background-color: #f9f9f9;
+    border-left: 5px solid #ff9966;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.index_into h1 {
+    color: #ff6600;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.index_into p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.index_categories {
+    padding: 20px;
+}
+
+.index_categories h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.index_categories_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.index_categories_list div {
+    background-color: #fff4e6;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 calc(25% - 20px); /* 4 in a row */
+    text-align: center;
+    min-width: 180px;
+}
+
+.index_categories_list h3 {
+    font-size: 1.2em;
+    color: #cc5500;
+}
+
+@media (max-width: 768px) {
+    .index_categories_list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .index_categories_list div {
+        flex: 1 1 100%;
+    }
+}
+
